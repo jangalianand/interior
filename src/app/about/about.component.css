@@ -1,0 +1,14 @@
+
+/* styles.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 36px;
+    text-align: justify;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  

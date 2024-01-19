@@ -1,0 +1,24 @@
+/* styles.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+/* Apply a specific height to the carousel container */
+.c-img{
+  height: 100%;
+  object-fit: cover;
+}
+.c-item{
+  height: 480px;
+}
+  
+  /* Responsive styling using media queries */
+  @media (max-width: 767px) {
+    #carouselExampleCaptions {
+      height: 200px; /* Adjust the height for smaller screens */
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    #carouselExampleCaptions {
+      height: 300px; /* Adjust the height for medium screens */
+    }
+  }
+  

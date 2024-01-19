@@ -1,0 +1,45 @@
+/* styles.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+/* navbar.component.css */
+.navbar-heading {
+    margin-top: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+    /* Styles for screens up to 767px wide */
+    .navbar-heading {
+        font-size: 1rem; /* Adjust the font size as needed */
+    }
+}
+
+@media (max-width: 991px) {
+    /* Styles for screens up to 991px wide */
+    .navbar-heading {
+        font-size: 1.25rem; /* Adjust the font size as needed */
+    }
+}
+
+/* navbar.component.css */
+.nav-item.active a {
+    color: #182C61; /* Change this to the desired color for the active link */
+    font-weight: bold;
+  }
+
+  #contact-info {
+    background-color: black;
+    color: #fff;
+    text-align: right;
+    padding: 4px;
+    padding-right: 30px;
+    /* margin-right: 10px; */
+    /* margin-top: 20px */
+  }
+
+  #contact-info img {
+    vertical-align: middle; /* Align the images vertically in the middle */
+    margin-right: 5px; /* Add some margin between the images */
+  }
